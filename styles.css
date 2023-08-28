@@ -7,8 +7,10 @@ body{
     height: 50px;
 }
 .nav{
+    display: flex;
+    justify-content: center;
     border: 1px black dashed;
-    text-align: center;
+    /* text-align: center; */
     height: 30px;
 }
 .hero{
@@ -25,4 +27,14 @@ body{
     border: 1px black dashed;
     text-align: center;
     height: 80px;
+}
+
+/* this is nav buttons group */
+.nav-buttons-group{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
 }

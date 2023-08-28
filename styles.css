@@ -38,12 +38,20 @@ body{
 
 /* this is nav buttons group */
 .nav-buttons-group{
-    width: 350px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
 }
 li{
+    font-size: 15px;
     display: flex;
     color: white;
     display: inline-block;
+}
+
+li:hover{
+    display: 20px;
+    color: white;
+    display: inline-block;
+    font-size: large;
 }
